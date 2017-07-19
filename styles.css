@@ -1,0 +1,53 @@
+.myfavorite {
+    border: 1px solid #bababa;
+    padding: 12px;
+    box-shadow: 6px 6px 2px #e0e0e0;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container {
+    max-width: 100%;
+    display: flex;
+    font-size: 15px;
+}
+.firstlist {
+    list-style-type: none;
+    padding: 0;
+}
+.liste {
+    font-weight: bold;
+}
+.interestingfact {
+    font-style: italic;
+}
+.image {
+    border: 1px hidden #bababa;
+    padding: 5px;
+    max-width: 100%;
+}
+.info {
+    border: none;
+    padding: 0;
+}
+.animalname {
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+@media only screen and (max-width: 670px) {
+    .myfavorite {
+        font-size: 13px;
+    }
+    .container {
+        display: block;
+    }
+    .animalname {
+        text-align: left;
+        padding: 2px;
+    }
+    .info {
+        border: 1px solid #bababa;
+        padding: 10px;
+    }
+}
